@@ -1,0 +1,9 @@
+<?php
+$servername='localhost';
+$username='root';
+$password='123';
+$conn=mysqli_connect($servername,$username,$password,"database5");
+if(!$conn){
+ die('Could not Connect My Sql:' .mysql_error());
+}
+?>
